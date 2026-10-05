@@ -31,6 +31,10 @@ app.get("/store" , (req:Request, res:Response) => {
     res.send("Welcome to contact page!");
 });
 
+app.get("/pass" , (req:Request, res:Response) => {
+    res.send("Welcome to contact page!");
+});
+
 
 
 
