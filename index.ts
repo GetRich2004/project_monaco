@@ -23,6 +23,10 @@ app.get("/birthday", (req:Request, res: Response) => {
     res.send(`Current Date and time: ${now.toString()}`);
     });
 
+    app.get("/contact" , (req:Request, res:Response) => {
+    res.send("Welcome to contact page!");
+});
+
 
     //the app.listen is compulsory, it helps you run the express server
 app.listen(PORT, () => {
